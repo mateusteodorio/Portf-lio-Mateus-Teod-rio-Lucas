@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.Projects h2{
+    text-align: center;
+    margin: auto;
+}
+
+
+body{
+    background-color: #AED1FF;
+}
+
+header{
+
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #AED1FF;
+
+  }
+
+  nav{
+    display: flex;
+    gap: 80px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+
+nav a:hover{
+    color: aquamarine;
+    
+}
+
+.informacoes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Nome{
+    padding: 50px 0px 0px 20px;
+}
+
+.Nome p{
+    padding: 50px 0px 20px 20px;
+}
+
+.Dados{
+    padding: 50px 0px 0px 20px;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+}
+
+.organizar{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.butao-dados button{
+    height: 50px;
+    width: 130px;
+    border-radius: 15px;
+}
+
+
+.azulzin{
+    color: #747EF3;
+}
+
+.butao-project button{
+    background-color: #00C0E8;
+}
+
+.image{
+    background-image: url(img/FundoImagem.png);
+    background-repeat: no-repeat;
+    
+
+    
+
+}
