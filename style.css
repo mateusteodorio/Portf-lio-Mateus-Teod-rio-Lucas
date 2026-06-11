@@ -8,6 +8,11 @@
     margin: auto;
 }
 
+.logo a{
+    color: #00C0E8;
+    text-overflow: none;
+    text-decoration: none;
+}
 
 body{
     background-color: #AED1FF;
