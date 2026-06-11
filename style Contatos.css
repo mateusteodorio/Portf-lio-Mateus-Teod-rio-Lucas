@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Projects h2{
+    text-align: center;
+    margin: auto;
+}
+
+
+body{
+    background-color: #AED1FF;
+    background-image: url(img/Fundo-Final.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+
+    
+}
+
+
+header{
+
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    background-color: #AED1FF;
+
+  }
+
+  nav{
+    display: flex;
+    gap: 80px;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+
+nav a:hover{
+    color: aquamarine;
+    
+}
+
+.informacoes{
+    display: flex;
+    flex-wrap: wrap;
+    height: 85px;
+    
+}
+
+.informacoes p{
+    font-size: 18px;
+    margin-left: 100px;
+}
+.fundo{
+    margin-left: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 160px;
+    border-radius: 30px;
+    width: 580.2px;
+    background-color: #00C0E8;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.tudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Nome{
+    padding: 50px 0px 0px 20px;
+    width: 700px;
+}
+
+.Nome p{
+    padding: 50px 0px 20px 20px;
+}
+
+.Dados{
+    padding: 50px 0px 0px 20px;
+    width: 550px;
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+}
+
+.organizar{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.botao-dados button{
+    height: 50px;
+    width: 130px;
+    border-radius: 15px;
+    
+}
+
+
+.botao-dados button:hover{
+    color: #747EF3;
+}
+
+
+.azulzin{
+    color: #747EF3;
+}
+
+.botao-project button{
+    background-color: #00C0E8;
+}
+
+.image{
+    background-image: url(img/FundoImagem.png);
+    background-repeat: no-repeat;
+    
+    
+
+    
+
+}
+
+.projetos{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.card{
+    background-color: rgb(0, 0, 0);
+    color: #00C0E8;
+    width: 1100px;
+    height: 530px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px;
+    border-radius: 30px;
+
+    
+
+}
+
+.card-maior{
+    background-color: rgb(255, 255, 255);
+    color: #00C0E8;
+    width: 1400px;
+    height: 530px;
+    display: flex;
+    margin: 50px;
+    border-radius: 30px;
+}
+
+.card h2{
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 100px;
+    margin: 20px;
+}
+
+.card button{
+    margin-left: 10px;
+}
+
+.card-maior h2{
+    font-size: 40px;
+
+
+}
+
+.card-maior button{
+    margin-left: 40px;
+}
+
+.projetos button:hover{
+    color: #747EF3;
+}
+
+.card img{
+    width: 400px;
+    border-radius: 30px;
+}
+
+.card-maior img{
+    width: 1900px;
+    border-radius: 30px;
+}
+
+.card p{
+    padding: 20px;
+}
+
+
+
+
+
+.descricao{
+    width: 700px;
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-top: 150px;
+
+
+    
+    
+}
+
+
+.butao-View button{
+    height: 70px;
+    width: 200px;
+    border-radius: 65px;
+    color: #00C0E8;
+    background-color: #000000;
+    border: 1px solid #00C0E8;;
+} 
+.butao-View-diferente button{
+    height: 70px;
+    width: 200px;
+    border-radius: 65px;
+    margin: 20px;
+    color: #00C0E8;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #00C0E8;;
+}
+
+
+
+.Contatos{
+
+    
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 100px;
+    
+}
+
+.ajustando{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email{
+    width: 400px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+ 
+
+}
+
+.mensagem{
+    width: 500px;
+    height: 100px;
+    margin: 40px;
+    display:flex;
+    flex-direction: column;
+
+}
+
+.mensagem input{
+    width: 500px;
+    height: 100px;
+    padding: 50px;
+    border: 2px solid white;
+    border-radius: 30px;
+
+}
+
+.email input{
+
+    width: 350px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 30px;
+
+}
+
+.enviar{
+    height: 200px;
+    width: 500px;
+    display: flex;
+    justify-content: end;
+
+}
+
+.enviar button{
+    height: 50px;
+    width: 100px;
+    border-radius: 8px;
+    color: #000000;
+    background-color: #00C0E8;
+    border: 1px solid #00C0E8;;
+}
+
+.enviar button:hover{
+    color: #000cb1;
+}
+.icones{
+    
+    height: 400px;
+}
+
+.icones i{
+    height: 150px;
+    width: 100px;
+}
+
+.icones p{
+    font-size: 10px;
+}
+
+
+    
+
