@@ -7,6 +7,10 @@
 .Projects h2{
     text-align: center;
     margin: auto;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 .tudo {
@@ -15,6 +19,10 @@
 }
 
 .logo a{
+    font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
     color: #0003c9;
     text-overflow: none;
     text-decoration: none;
@@ -84,6 +92,10 @@ nav a:hover{
     width: 580.2px;
     position: relative;
     z-index: 1;
+    font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 
 }
 
@@ -91,6 +103,16 @@ nav a:hover{
     display: flex;
     justify-content: space-between;
     
+}
+
+.conteudo h1{
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
 }
 
 .tudo{
