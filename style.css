@@ -337,16 +337,20 @@ nav a:hover{
     color: #000cb1;
 }
 .icones{
-    
+    justify-content: space-between;
+    flex-wrap: wrap;
     height: 400px;
 }
 
-.icones i{
-    height: 150px;
-    width: 100px;
+.icones img{
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+
 }
 
 .icones p{
+    padding: 20px;
     font-size: 10px;
 }
 
