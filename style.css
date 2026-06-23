@@ -235,7 +235,8 @@ nav a:hover{
 }
 
 .projetos button:hover{
-    color: #747EF3;
+    color:  #000000;
+    background-color: #00C0E8;
 }
 
 .card img{
@@ -367,7 +368,7 @@ nav a:hover{
 /* HOVER - estilizações para quando o mouse passar sobre o elemento */
 
 header:hover{
-    background-color: #747EF3;
+    background-color: #747ff313;
 }
 
 .enviar button:hover{

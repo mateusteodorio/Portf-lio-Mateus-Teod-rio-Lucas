@@ -4,10 +4,18 @@
 }
 
 .logo a{
-    color: #00C0E8;
+    font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+    color: #0003c9;
     text-overflow: none;
     text-decoration: none;
-    margin: 80px;
+
+}
+
+.logo{
+    margin: 50px;
 }
 
 .Projects h2{
@@ -282,6 +290,17 @@ nav a:hover{
     align-items: center;
 }
 
+.ajustando hr{
+    margin-bottom: 150px;
+    margin-right: 40px; 
+}
+.ajustando h1{
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-right: 60px;
+}
 .email{
     width: 400px;
     height: 70px;
@@ -292,8 +311,8 @@ nav a:hover{
 }
 
 .mensagem{
-    width: 500px;
-    height: 100px;
+    width: 400px;
+    height: 150px;
     margin: 40px;
     display:flex;
     flex-direction: column;
@@ -301,8 +320,8 @@ nav a:hover{
 }
 
 .mensagem input{
-    width: 500px;
-    height: 100px;
+    width: 400px;
+    height: 150px;
     padding: 50px;
     border: 2px solid white;
     border-radius: 30px;
@@ -311,7 +330,7 @@ nav a:hover{
 
 .email input{
 
-    width: 350px;
+    width: 400px;
     height: 30px;
     border: 2px solid white;
     border-radius: 30px;

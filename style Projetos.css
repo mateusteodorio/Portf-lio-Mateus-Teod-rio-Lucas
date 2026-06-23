@@ -3,13 +3,21 @@
     box-sizing: border-box;
 }
 
+.logo{
+    margin: 50px;
+}
+
 .logo a{
-    color: #0036e8;
-    font-size: 25px;
+    font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+    color: #0003c9;
     text-overflow: none;
     text-decoration: none;
-    margin: 80px;
+
 }
+
 
 .Projects h2{
     text-align: center;
@@ -205,7 +213,8 @@ nav a:hover{
 }
 
 .projetos button:hover{
-    color: #747EF3;
+    color:  #000000;
+    background-color: #00C0E8;
 }
 
 .card img{
