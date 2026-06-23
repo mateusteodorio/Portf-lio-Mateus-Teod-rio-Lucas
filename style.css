@@ -366,6 +366,10 @@ nav a:hover{
 
 /* HOVER - estilizações para quando o mouse passar sobre o elemento */
 
+header:hover{
+    background-color: #747EF3;
+}
+
 .enviar button:hover{
     color: #000cb1;
 }
